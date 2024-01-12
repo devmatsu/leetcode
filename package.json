@@ -1,0 +1,19 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Welcome to the LeetCode Code Repository! This collection is designed to store and organize a variety of LeetCode solutions, making it a valuable resource for coding enthusiasts. Explore a curated assortment of meticulously crafted code solutions that serve as a reference and learning aid. Happy coding!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
