@@ -8,6 +8,7 @@ export const twoSum = (nums, target) => {
     }
     result[nums[i]] = i;
   }
+
   return [];
 };
 
