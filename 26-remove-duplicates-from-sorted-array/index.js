@@ -1,5 +1,5 @@
 export const removeDuplicates = (nums) => {
-  const k = nums.length;
+  nums = [...new Set(nums)];
 
-  return k;
+  return nums.length;
 };
