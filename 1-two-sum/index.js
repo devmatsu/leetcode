@@ -1,12 +1,12 @@
 export const twoSum = (nums, target) => {
-  const result = {};
+  const hashMap = {};
 
   for (let i = 0; i < nums.length; i += 1) {
     const complement = target - nums[i];
-    if (Object.prototype.hasOwnProperty.call(result, complement)) {
-      return [result[complement], i];
+    if (Object.prototype.hasOwnProperty.call(hashMap, complement)) {
+      return [hashMap[complement], i];
     }
-    result[nums[i]] = i;
+    hashMap[nums[i]] = i;
   }
 
   return [];
