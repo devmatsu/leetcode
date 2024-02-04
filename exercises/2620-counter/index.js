@@ -4,6 +4,16 @@
  */
 
 export const createCounter = (n) => {
+  let count = n - 1;
+
+  return () => {
+    count += 1;
+    return count;
+  };
+};
+
+// First version
+export const createCounterV1 = (n) => {
   let increment = -1;
 
   return () => {
@@ -11,10 +21,3 @@ export const createCounter = (n) => {
     return n + increment;
   };
 };
-
-/**
-* const counter = createCounter(10)
-* counter() // 10
-* counter() // 11
-* counter() // 12
-*/
