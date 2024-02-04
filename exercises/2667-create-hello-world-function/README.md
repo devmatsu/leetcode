@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/create-hello-world-function/git ">2667. Create Hello World Function</a></h2><h3>Solved</h3><h3>Easy</h3><hr><div>
+<h2><a href="https://leetcode.com/problems/create-hello-world-function/git ">2667. Create Hello World Function</a></h2><h3>Easy</h3><hr><div>
 
 <p>Write a function <code>createHelloWorld</code>. It should return a new function that always returns "Hello World".</p>
 

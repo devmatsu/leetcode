@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/to-be-or-not-to-be">2704. To Be Or Not To Be</a></h2><h3>Solved</h3><h3>Easy</h3><hr><div>
+<h2><a href="https://leetcode.com/problems/to-be-or-not-to-be">2704. To Be Or Not To Be</a></h2><h3>Easy</h3><hr><div>
 
 <p>Write a function <code>expect</code> that helps developers test their code. It should take in any value <code>val</code> and return an object with the following two functions:</p>
 
