@@ -35,23 +35,17 @@ To run the project and execute the tests, use the following command:
 npm test
 ```
 
-This command will run the test suite and provide feedback on the performance of your LeetCode solutions.
+This command will run the test suite and provide feedback of your LeetCode solutions.
 
-Selecting Specific Tests
-If you want to run tests for a specific LeetCode challenge, you can customize the test selection by modifying the jest.config.js file. Locate the testMatch configuration in the file and adjust it according to your needs.
+### Selecting Specific Tests
+If you want to run tests for a specific LeetCode challenge, you can customize the test selection by modifying the `jest.config.js` file. To modify the test selection, open the config file and find the `testFiles` variable, this variable contains an array of exercise names that determine which tests are run. To include or exclude exercises, edit this array as needed.
 
-Example ```jest.config.js```:
-
+For example, to exclude a specific exercise, you can comment it out by adding double slashes (//) in front of its entry in the `testFiles` array:
 ````js
-module.exports = {
-  testMatch: [
-    // Include the paths to the test files for the challenges you want to run
-    '<rootDir>/exercises/1-exercise-name/index.test.js',
-    '<rootDir>/exercises/2-exercise-name/index.test.js',
-
-    // Comment or uncomment the tests based on your preferences
-    // '<rootDir>/exercises/3-exercise-name/index.test.js',
-    // '<rootDir>/exercises/4-exercise-name/index.test.js',
-  ],
-};
+const testFiles = [
+  //'1-two-sum', // This exercise is commented out and will not run the tests.
+  '26-remove-duplicates-from-sorted-array', 
+  '41-first-missing-positive',
+  // ...
+];
 ````
