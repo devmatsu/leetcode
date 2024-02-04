@@ -1,13 +1,18 @@
 const directory = '<rootDir>/exercises';
+const testFile = 'index.test.js';
+const testFiles = [
+  '1-two-sum',
+  '26-remove-duplicates-from-sorted-array',
+  '41-first-missing-positive',
+  '2620-counter',
+  '2667-create-hello-world-function',
+  '2704-to-be-or-not-to-be',
+];
+
+const testMatch = testFiles.map((file) => `${directory}/${file}/${testFile}`);
+
 const config = {
-  testMatch: [
-    `${directory}/1-two-sum/index.test.js`,
-    `${directory}/26-remove-duplicates-from-sorted-array/index.test.js`,
-    `${directory}/41-first-missing-positive/index.test.js`,
-    `${directory}/2620-counter/index.test.js`,
-    `${directory}/2667-create-hello-world-function/index.test.js`,
-    `${directory}/2704-to-be-or-not-to-be/index.test.js`,
-  ],
+  testMatch,
 };
 
 export default config;
