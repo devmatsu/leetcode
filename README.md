@@ -1,13 +1,18 @@
-# LeetCode Code Repository
+# LeetCode Code Resolution Repository
 
-Welcome to the LeetCode Code Repository! This collection is designed to store and organize a variety of LeetCode solutions, making it a valuable resource for coding enthusiasts. Explore a curated assortment of meticulously crafted code solutions that serve as a reference and learning aid.
+Welcome to my LeetCode Code Resolution Repository! Here, you'll find a personal collection of solutions to various LeetCode problems that I've tackled. This repository serves as a reflection of my coding journey, showcasing my problem-solving skills and approaches.
+
+Each solution is a result of careful thought and dedication, aimed at not just solving the problem but also understanding the underlying concepts. While these solutions are tailored to my style and understanding, I hope they provide insights and inspiration to others embarking on their own coding challenges.
 
 ---
 ## Exercise list
-- [X] [1. Two Sum](https://github.com/devmatsu/leetcode/tree/main/exercises/1-two-sum)
-- [X] [26. Remove Duplicates from Sorted Array](https://github.com/devmatsu/leetcode/tree/main/exercises/26-remove-duplicates-from-sorted-array)
-- [X] [41. First Missing Positive](https://github.com/devmatsu/leetcode/tree/main/exercises/41-first-missing-positive)
-- [X] [2667. Create Hello World Function](https://github.com/devmatsu/leetcode/tree/main/exercises/2667-create-hello-world-function)
+| Exercise                                                                                                                                   | Difficulty |
+| :---                                                                                                                                       | :---: |
+| [1. Two Sum](https://github.com/devmatsu/leetcode/tree/main/exercises/1-two-sum)                                                           | Easy |
+| [26. Remove Duplicates from Sorted Array](https://github.com/devmatsu/leetcode/tree/main/exercises/26-remove-duplicates-from-sorted-array) | Easy |
+| [41. First Missing Positive](https://github.com/devmatsu/leetcode/tree/main/exercises/41-first-missing-positive)                           | Hard |
+| [2667. Create Hello World Function](https://github.com/devmatsu/leetcode/tree/main/exercises/2667-create-hello-world-function)             | Easy |
+
 
 ---
 ## Getting Started
