@@ -5,6 +5,7 @@ const testFiles = [
   '26-remove-duplicates-from-sorted-array',
   '41-first-missing-positive',
   '2620-counter',
+  '2665-counter-ii',
   '2667-create-hello-world-function',
   '2704-to-be-or-not-to-be',
 ];
