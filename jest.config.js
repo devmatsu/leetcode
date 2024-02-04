@@ -1,9 +1,10 @@
+const directory = '<rootDir>/exercises';
 const config = {
   testMatch: [
-    '<rootDir>/exercises/1-two-sum/index.test.js',
-    '<rootDir>/exercises/26-remove-duplicates-from-sorted-array/index.test.js',
-    '<rootDir>/exercises/41-first-missing-positive/index.test.js',
-    '<rootDir>/exercises/2667-create-hello-world-function/index.test.js',
+    `${directory}/1-two-sum/index.test.js`,
+    `${directory}/26-remove-duplicates-from-sorted-array/index.test.js`,
+    `${directory}/41-first-missing-positive/index.test.js`,
+    `${directory}/2667-create-hello-world-function/index.test.js`,
   ],
 };
 
