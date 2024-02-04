@@ -39,12 +39,12 @@ Example ```jest.config.js```:
 module.exports = {
   testMatch: [
     // Include the paths to the test files for the challenges you want to run
-    '<rootDir>/tests/specific_challenge1.test.js',
-    '<rootDir>/tests/specific_challenge2.test.js',
+    '<rootDir>/exercises/1-exercise-name/index.test.js',
+    '<rootDir>/exercises/2-exercise-name/index.test.js',
 
     // Comment or uncomment the tests based on your preferences
-    // '<rootDir>/tests/specific_challenge3.test.js',
-    // '<rootDir>/tests/specific_challenge4.test.js',
+    // '<rootDir>/exercises/3-exercise-name/index.test.js',
+    // '<rootDir>/exercises/4-exercise-name/index.test.js',
   ],
 };
 ````
