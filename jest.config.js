@@ -6,6 +6,7 @@ const config = {
     `${directory}/41-first-missing-positive/index.test.js`,
     `${directory}/2620-counter/index.test.js`,
     `${directory}/2667-create-hello-world-function/index.test.js`,
+    `${directory}/2704-to-be-or-not-to-be/index.test.js`,
   ],
 };
 
