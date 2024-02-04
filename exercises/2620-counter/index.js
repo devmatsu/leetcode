@@ -2,9 +2,13 @@
  * @param {number} n
  * @return {Function} counter
  */
-const createCounter = function (n) {
-  return function () {
 
+export const createCounter = (n) => {
+  let increment = -1;
+
+  return () => {
+    increment += 1;
+    return n + increment;
   };
 };
 
