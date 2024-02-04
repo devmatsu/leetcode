@@ -2,13 +2,22 @@
  * @param {integer} init
  * @return { increment: Function, decrement: Function, reset: Function }
  */
-const createCounter = function (init) {
 
+export const createCounter = (init) => {
+  let variableValue = init;
+
+  return {
+    increment: () => {
+      variableValue += 1;
+      return variableValue;
+    },
+    decrement: () => {
+      variableValue -= 1;
+      return variableValue;
+    },
+    reset: () => {
+      variableValue = init;
+      return variableValue;
+    },
+  };
 };
-
-/**
- * const counter = createCounter(5)
- * counter.increment(); // 6
- * counter.reset(); // 5
- * counter.decrement(); // 4
- */
