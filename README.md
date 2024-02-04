@@ -13,6 +13,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [41. First Missing Positive](https://github.com/devmatsu/leetcode/tree/main/exercises/41-first-missing-positive)                           | Hard |
 | [2620. Counter](https://github.com/devmatsu/leetcode/tree/main/exercises/2620-counter)                                                     | Easy |
 | [2667. Create Hello World Function](https://github.com/devmatsu/leetcode/tree/main/exercises/2667-create-hello-world-function)             | Easy |
+| [2704. To Be Or Not To Be](https://github.com/devmatsu/leetcode/tree/main/exercises/2704-to-be-or-not-to-be)                               | Easy |
 
 
 ---
