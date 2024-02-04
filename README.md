@@ -3,7 +3,13 @@
 Welcome to the LeetCode Code Repository! This collection is designed to store and organize a variety of LeetCode solutions, making it a valuable resource for coding enthusiasts. Explore a curated assortment of meticulously crafted code solutions that serve as a reference and learning aid.
 
 ---
+## Exercise list
+- [X] [1. Two Sum](https://github.com/devmatsu/leetcode/tree/main/exercises/1-two-sum)
+- [X] [26. Remove Duplicates from Sorted Array](https://github.com/devmatsu/leetcode/tree/main/exercises/26-remove-duplicates-from-sorted-array)
+- [X] [41. First Missing Positive](https://github.com/devmatsu/leetcode/tree/main/exercises/41-first-missing-positive)
+- [X] [2667. Create Hello World Function](https://github.com/devmatsu/leetcode/tree/main/exercises/2667-create-hello-world-function)
 
+---
 ## Getting Started
 
 ### Installing Dependencies
