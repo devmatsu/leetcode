@@ -1,6 +1,6 @@
 import { createCounter } from './index';
 
-describe('Counter', () => {
+describe('Counter Functionality', () => {
   let counter;
 
   beforeEach(() => {

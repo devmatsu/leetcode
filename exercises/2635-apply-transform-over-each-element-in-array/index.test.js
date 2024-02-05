@@ -1,7 +1,7 @@
 import { map } from './index';
 
-describe('Test passing a function with one param or less', () => {
-  it('Should return the modified array summing one through plusone function', () => {
+describe('Mapping an Array with a Single or Less Parameter Function', () => {
+  it('should return a modified array by adding 1 to each element through the plusOne function', () => {
     const arr = [1, 2, 3];
     const plusone = (n) => n + 1;
 
@@ -10,7 +10,7 @@ describe('Test passing a function with one param or less', () => {
     expect(newArray).toEqual([2, 3, 4]);
   });
 
-  it('Should return the modified array with the constant function', () => {
+  it('should return a modified array with the constant value of 42', () => {
     const arr = [10, 20, 30];
     const constant = () => 42;
 
@@ -20,8 +20,8 @@ describe('Test passing a function with one param or less', () => {
   });
 });
 
-describe('Test passing a function with two params', () => {
-  it('Should return something', () => {
+describe('Mapping an Array with a Two-Parameter Function', () => {
+  it('should return a modified array by adding the index to each element', () => {
     const arr = [1, 2, 3];
     const plusI = (n, i) => n + i;
 
