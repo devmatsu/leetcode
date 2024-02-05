@@ -15,6 +15,7 @@ const testMatch = testFiles.map((file) => `${directory}/${file}/${testFile}`);
 
 const config = {
   testMatch,
+  verbose: true,
 };
 
 export default config;
