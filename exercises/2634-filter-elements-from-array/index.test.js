@@ -1,6 +1,6 @@
 import { filter } from './index';
 
-describe('Filtering an Array with a Single Parameter Function', () => {
+describe('Simulate filter function', () => {
   it('should return a modified array by filtering out elements greater than 10', () => {
     const arr = [0, 10, 20, 30];
     const greaterThan10 = (n) => n > 10;
@@ -18,9 +18,7 @@ describe('Filtering an Array with a Single Parameter Function', () => {
 
     expect(newArray).toEqual([-2, 0, 1, 2]);
   });
-});
 
-describe('Filtering an Array with a Two-Parameter Function', () => {
   it('should return a modified array that gets only the first index', () => {
     const arr = [1, 2, 3];
     const firstIndex = (n, i) => i === 0;

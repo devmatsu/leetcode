@@ -1,6 +1,6 @@
 import { reduce } from './index';
 
-describe('Array Reduce Transformation', () => {
+describe('Simulate reduce function', () => {
   const sumReducer = (accum, curr) => accum + curr;
 
   it('should sum all the numbers in the array', () => {
