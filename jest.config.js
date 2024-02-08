@@ -6,6 +6,7 @@ const testFiles = [
   '41-first-missing-positive',
   '2620-counter',
   '2626-array-reduce-transformation',
+  '2629-function-composition',
   '2634-filter-elements-from-array',
   '2635-apply-transform-over-each-element-in-array',
   '2665-counter-ii',
