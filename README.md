@@ -13,6 +13,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [41. First Missing Positive](https://github.com/devmatsu/leetcode/tree/main/exercises/41-first-missing-positive)                                               | Hard |
 | [2620. Counter](https://github.com/devmatsu/leetcode/tree/main/exercises/2620-counter)                                                                         | Easy |
 | [2626. Array Reduce Transformation](https://github.com/devmatsu/leetcode/tree/main/exercises/2626-array-reduce-transformation)                                 | Easy |
+| [2629. Function Composition](https://github.com/devmatsu/leetcode/tree/main/exercises/2629-function-composition)                                               | Easy |
 | [2634. Filter Elements from Array](https://github.com/devmatsu/leetcode/tree/main/exercises/2634-filter-elements-from-array)                                   | Easy |
 | [2635. Apply Transform Over Each Element in Array](https://github.com/devmatsu/leetcode/tree/main/exercises/2635-apply-transform-over-each-element-in-array)   | Easy |
 | [2665. Counter II](https://github.com/devmatsu/leetcode/tree/main/exercises/2665-counter-ii)                                                                   | Easy |
