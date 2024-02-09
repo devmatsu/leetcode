@@ -1,6 +1,6 @@
 import { compose } from './index';
 
-describe('compose function', () => {
+describe('Compose function', () => {
   it('should correctly compose functions for the first test case', () => {
     const functions = [(x) => x + 1, (x) => x * x, (x) => 2 * x];
     const x = 4;
