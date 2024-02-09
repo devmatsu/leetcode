@@ -18,6 +18,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [2635. Apply Transform Over Each Element in Array](https://github.com/devmatsu/leetcode/tree/main/exercises/2635-apply-transform-over-each-element-in-array)   | Easy |
 | [2665. Counter II](https://github.com/devmatsu/leetcode/tree/main/exercises/2665-counter-ii)                                                                   | Easy |
 | [2667. Create Hello World Function](https://github.com/devmatsu/leetcode/tree/main/exercises/2667-create-hello-world-function)                                 | Easy |
+| [2703. Return Length of Arguments Passed](https://github.com/devmatsu/leetcode/tree/main/exercises/2703-return-length-of-arguments-passed)                     | Easy |
 | [2704. To Be Or Not To Be](https://github.com/devmatsu/leetcode/tree/main/exercises/2704-to-be-or-not-to-be)                                                   | Easy |
 
 
