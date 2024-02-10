@@ -10,6 +10,7 @@ const testFiles = [
   '2634-filter-elements-from-array',
   '2635-apply-transform-over-each-element-in-array',
   '2665-counter-ii',
+  '2666-allow-one-function-call',
   '2667-create-hello-world-function',
   '2703-return-length-of-arguments-passed',
   '2704-to-be-or-not-to-be',
