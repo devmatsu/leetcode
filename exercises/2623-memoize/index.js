@@ -1,9 +1,30 @@
+/* eslint-disable no-prototype-builtins */
 /**
  * @param {Function} fn
  * @return {Function}
  */
 
-export function memoize(fn) {
+export const memoize = (fn) => {
+  const cacheResult = {};
+  const cacheExecution = {};
+
+  return (...args) => {
+    const key = args.join('-');
+
+    if (cacheResult.hasOwnProperty(key)) {
+      cacheExecution[key] += 1;
+      return cacheResult[key];
+    }
+
+    const result = fn(...args);
+    cacheResult[key] = result;
+    cacheExecution[key] = 1;
+
+    return result;
+  };
+};
+
+export function memoizeV1(fn) {
   const cache = [];
 
   return (...args) => {
