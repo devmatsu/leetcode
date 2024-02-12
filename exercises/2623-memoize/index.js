@@ -2,21 +2,24 @@
  * @param {Function} fn
  * @return {Function}
  */
-function memoize(fn) {
-    
-  return function(...args) {
-      
-  }
+
+export function memoize(fn) {
+  const cache = [];
+
+  return (...args) => {
+    const argsExists = cache.find((item) => JSON.stringify(item.params) === JSON.stringify(args));
+    if (argsExists) {
+      argsExists.times += 1;
+      return argsExists.result;
+    }
+
+    const result = fn(...args);
+    cache.push({
+      params: args,
+      result,
+      times: 1,
+    });
+
+    return result;
+  };
 }
-
-
-/** 
-* let callCount = 0;
-* const memoizedFn = memoize(function (a, b) {
-*	 callCount += 1;
-*   return a + b;
-* })
-* memoizedFn(2, 3) // 5
-* memoizedFn(2, 3) // 5
-* console.log(callCount) // 1 
-*/
