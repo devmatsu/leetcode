@@ -6,6 +6,26 @@
 
 export const memoize = (fn) => {
   const cacheResult = {};
+  let callCount = 0;
+
+  const memoizedFn = (...args) => {
+    const key = args.join('-');
+
+    if (!cacheResult.hasOwnProperty(key)) {
+      cacheResult[key] = fn(...args);
+      callCount += 1;
+    }
+
+    return cacheResult[key];
+  };
+
+  memoizedFn.getCallCount = () => callCount;
+
+  return memoizedFn;
+};
+
+export const memoizeV2 = (fn) => {
+  const cacheResult = {};
   const cacheExecution = {};
 
   return (...args) => {
@@ -24,7 +44,7 @@ export const memoize = (fn) => {
   };
 };
 
-export function memoizeV1(fn) {
+export const memoizeV1 = (fn) => {
   const cache = [];
 
   return (...args) => {
@@ -43,4 +63,4 @@ export function memoizeV1(fn) {
 
     return result;
   };
-}
+};
