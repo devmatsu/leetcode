@@ -3,11 +3,9 @@
  * @param {Promise} promise2
  * @return {Promise}
  */
-var addTwoPromises = async function(promise1, promise2) {
-    
-};
 
-/**
- * addTwoPromises(Promise.resolve(2), Promise.resolve(2))
- *   .then(console.log); // 4
- */
+export const addTwoPromises = async (promise1, promise2) => {
+  const result = await Promise.allSettled([promise1, promise2]);
+  const sum = result.reduce((acc, elm) => acc + elm.value, 0);
+  return sum;
+};
