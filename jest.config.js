@@ -15,6 +15,7 @@ const testFiles = [
   '2667-create-hello-world-function',
   '2703-return-length-of-arguments-passed',
   '2704-to-be-or-not-to-be',
+  '2723-add-two-promises',
 ];
 
 const testMatch = testFiles.map((file) => `${directory}/${file}/${testFile}`);
