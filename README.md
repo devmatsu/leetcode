@@ -23,6 +23,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [2667. Create Hello World Function](https://github.com/devmatsu/leetcode/tree/main/exercises/2667-create-hello-world-function)                                 | Easy       |
 | [2703. Return Length of Arguments Passed](https://github.com/devmatsu/leetcode/tree/main/exercises/2703-return-length-of-arguments-passed)                     | Easy       |
 | [2704. To Be Or Not To Be](https://github.com/devmatsu/leetcode/tree/main/exercises/2704-to-be-or-not-to-be)                                                   | Easy       |
+| [2715. Timeout Cancellation](https://github.com/devmatsu/leetcode/tree/main/exercises/2715-timeout-cancellation)                                               | Easy       |
 | [2723. Add Two Promises](https://github.com/devmatsu/leetcode/tree/main/exercises/2723-add-two-promises)                                                       | Easy       |
 
 
