@@ -5,6 +5,7 @@ const testFiles = [
   '26-remove-duplicates-from-sorted-array',
   '41-first-missing-positive',
   '2620-counter',
+  '2621-sleep',
   '2623-memoize',
   '2626-array-reduce-transformation',
   '2629-function-composition',
