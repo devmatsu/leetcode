@@ -12,6 +12,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [26. Remove Duplicates from Sorted Array](https://github.com/devmatsu/leetcode/tree/main/exercises/26-remove-duplicates-from-sorted-array)                     | Easy       |
 | [41. First Missing Positive](https://github.com/devmatsu/leetcode/tree/main/exercises/41-first-missing-positive)                                               | Hard       |
 | [2620. Counter](https://github.com/devmatsu/leetcode/tree/main/exercises/2620-counter)                                                                         | Easy       |
+| [2621. Sleep](https://github.com/devmatsu/leetcode/tree/main/exercises/2621-sleep)                                                                             | Easy       |
 | [2623. Memoize](https://github.com/devmatsu/leetcode/tree/main/exercises/2623-memoize)                                                                         | Medium     |
 | [2626. Array Reduce Transformation](https://github.com/devmatsu/leetcode/tree/main/exercises/2626-array-reduce-transformation)                                 | Easy       |
 | [2629. Function Composition](https://github.com/devmatsu/leetcode/tree/main/exercises/2629-function-composition)                                               | Easy       |
