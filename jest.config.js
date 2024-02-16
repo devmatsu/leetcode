@@ -18,6 +18,7 @@ const testFiles = [
   '2704-to-be-or-not-to-be',
   '2715-timeout-cancellation',
   '2723-add-two-promises',
+  '2725-interval-cancellation',
 ];
 
 const testMatch = testFiles.map((file) => `${directory}/${file}/${testFile}`);
