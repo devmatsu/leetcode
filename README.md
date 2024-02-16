@@ -25,6 +25,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [2704. To Be Or Not To Be](https://github.com/devmatsu/leetcode/tree/main/exercises/2704-to-be-or-not-to-be)                                                   | Easy       |
 | [2715. Timeout Cancellation](https://github.com/devmatsu/leetcode/tree/main/exercises/2715-timeout-cancellation)                                               | Easy       |
 | [2723. Add Two Promises](https://github.com/devmatsu/leetcode/tree/main/exercises/2723-add-two-promises)                                                       | Easy       |
+| [2725. Interval Cancellation](https://github.com/devmatsu/leetcode/tree/main/exercises/2725-interval-cancellation)                                             | Easy       |
 
 
 ---
