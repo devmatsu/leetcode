@@ -11,6 +11,7 @@ const testFiles = [
   '2629-function-composition',
   '2634-filter-elements-from-array',
   '2635-apply-transform-over-each-element-in-array',
+  '2637-promise-time-limit',
   '2665-counter-ii',
   '2666-allow-one-function-call',
   '2667-create-hello-world-function',
