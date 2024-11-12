@@ -5,7 +5,7 @@ const callFuncToBe = (expect, toBe) => {
     const response = expectFunc(expect).toBe(toBe);
     if (response) return { value: true };
   } catch (error) {
-    return { error: 'Not Equal' };
+    return { error: error.message };
   }
   return {};
 };
@@ -15,7 +15,7 @@ const callFuncNotToBe = (expect, notToBe) => {
     const response = expectFunc(expect).notToBe(notToBe);
     if (response) return { value: true };
   } catch (error) {
-    return { error: 'Equal' };
+    return { error: error.message };
   }
   return {};
 };
