@@ -3,7 +3,12 @@
  * @return {Object}
  */
 
-export const expect = (expectVal) => ({
+export const expect = (val) => ({
+  toBe: (val2) => val === val2 || (() => { throw new Error('Not Equal'); })(),
+  notToBe: (val2) => val !== val2 || (() => { throw new Error('Equal2'); })(),
+});
+
+export const expectV1 = (expectVal) => ({
   toBe: (val) => {
     if (expectVal === val) return true;
     throw new Error('Not Equal');
