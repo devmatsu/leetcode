@@ -1,4 +1,18 @@
 export const twoSum = (nums, target) => {
+  const hashmap = new Map();
+
+  for (let i = 0; i < nums.length; i += 1) {
+    const n = nums[i];
+    const resTarget = target - n;
+
+    if (hashmap.has(resTarget)) return [hashmap.get(resTarget), i];
+    hashmap.set(n, i);
+  }
+
+  return [];
+};
+
+export const twoSumV2 = (nums, target) => {
   const hashMap = {};
 
   for (let i = 0; i < nums.length; i += 1) {
