@@ -1,23 +1,14 @@
+/* eslint-disable no-return-assign */
 /**
  * @param {integer} init
  * @return { increment: Function, decrement: Function, reset: Function }
  */
 
 export const createCounter = (init) => {
-  let variableValue = init;
-
+  let counter = init;
   return {
-    increment: () => {
-      variableValue += 1;
-      return variableValue;
-    },
-    decrement: () => {
-      variableValue -= 1;
-      return variableValue;
-    },
-    reset: () => {
-      variableValue = init;
-      return variableValue;
-    },
+    increment: () => (counter += 1),
+    decrement: () => (counter -= 1),
+    reset: () => (counter = init),
   };
 };
