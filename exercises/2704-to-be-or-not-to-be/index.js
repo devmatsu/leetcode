@@ -5,7 +5,7 @@
 
 export const expect = (val) => ({
   toBe: (val2) => val === val2 || (() => { throw new Error('Not Equal'); })(),
-  notToBe: (val2) => val !== val2 || (() => { throw new Error('Equal2'); })(),
+  notToBe: (val2) => val !== val2 || (() => { throw new Error('Equal'); })(),
 });
 
 export const expectV1 = (expectVal) => ({
