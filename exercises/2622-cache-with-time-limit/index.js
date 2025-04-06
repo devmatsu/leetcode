@@ -1,5 +1,5 @@
 /* eslint-disable func-names */
-const TimeLimitedCache = function () {
+export const TimeLimitedCache = function () {
   this.cache = new Map();
 };
 
