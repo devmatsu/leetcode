@@ -4,6 +4,7 @@ const testFiles = [
   '1-two-sum',
   '26-remove-duplicates-from-sorted-array',
   '41-first-missing-positive',
+  '1446-consecutive-characters',
   '2620-counter',
   '2621-sleep',
   '2622-cache-with-time-limit',
