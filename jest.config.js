@@ -10,6 +10,7 @@ const testFiles = [
   '2622-cache-with-time-limit',
   '2623-memoize',
   '2626-array-reduce-transformation',
+  '2627-debounce',
   '2629-function-composition',
   '2634-filter-elements-from-array',
   '2635-apply-transform-over-each-element-in-array',
