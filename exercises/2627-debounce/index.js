@@ -3,11 +3,15 @@
  * @param {number} t milliseconds
  * @return {Function}
  */
-var debounce = function(fn, t) {
-    
-  return function(...args) {
-      
-  }
+export const debounce = (fn, t) => {
+  let ref;
+  return (...args) => {
+    if (ref) clearTimeout(ref);
+
+    ref = setTimeout(() => {
+      fn(...args);
+    }, t);
+  };
 };
 
 /**
