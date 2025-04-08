@@ -29,6 +29,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [2703. Return Length of Arguments Passed](https://github.com/devmatsu/leetcode/tree/main/exercises/2703-return-length-of-arguments-passed)                     | Easy       |
 | [2704. To Be Or Not To Be](https://github.com/devmatsu/leetcode/tree/main/exercises/2704-to-be-or-not-to-be)                                                   | Easy       |
 | [2715. Timeout Cancellation](https://github.com/devmatsu/leetcode/tree/main/exercises/2715-timeout-cancellation)                                               | Easy       |
+| [2721. Execute Asynchronous Functions in Parallel](https://github.com/devmatsu/leetcode/tree/main/exercises/2721-execute-asynchronous-functions-in-parallel)   | Medium     |
 | [2723. Add Two Promises](https://github.com/devmatsu/leetcode/tree/main/exercises/2723-add-two-promises)                                                       | Easy       |
 | [2725. Interval Cancellation](https://github.com/devmatsu/leetcode/tree/main/exercises/2725-interval-cancellation)                                             | Easy       |
 
