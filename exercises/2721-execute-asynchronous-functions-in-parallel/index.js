@@ -7,6 +7,15 @@ export const promiseAll = (functions) => new Promise((resolve, reject) => {
   Promise.all(promises).then(resolve).catch(reject);
 });
 
+export const promiseAllV2 = (functions) => {
+  try {
+    const promises = functions.map((fn) => fn());
+    return Promise.all(promises);
+  } catch (err) {
+    return Promise.reject(err);
+  }
+};
+
 export const promiseAllV1 = (functions) => new Promise((resolve, reject) => {
   try {
     const promises = functions.map((fn) => fn());
