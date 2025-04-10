@@ -32,6 +32,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [2721. Execute Asynchronous Functions in Parallel](https://github.com/devmatsu/leetcode/tree/main/exercises/2721-execute-asynchronous-functions-in-parallel)   | Medium     |
 | [2723. Add Two Promises](https://github.com/devmatsu/leetcode/tree/main/exercises/2723-add-two-promises)                                                       | Easy       |
 | [2725. Interval Cancellation](https://github.com/devmatsu/leetcode/tree/main/exercises/2725-interval-cancellation)                                             | Easy       |
+| [2727. Is Object Empty](https://github.com/devmatsu/leetcode/tree/main/exercises/2727-is-object-empty)                                                         | Easy       |
 
 
 ---
