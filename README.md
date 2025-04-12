@@ -13,6 +13,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [41. First Missing Positive](https://github.com/devmatsu/leetcode/tree/main/exercises/41-first-missing-positive)                                               | Hard       |
 | [443. String Compression](https://github.com/devmatsu/leetcode/tree/main/exercises/443-string-compression)                                                     | Medium     |
 | [1446. Consecutive Characters](https://github.com/devmatsu/leetcode/tree/main/exercises/1446-consecutive-characters)                                           | Easy       |
+| [2619. Array Prototype Last](https://github.com/devmatsu/leetcode/tree/main/exercises/2619-array-prototype-last)                                               | Easy       |
 | [2620. Counter](https://github.com/devmatsu/leetcode/tree/main/exercises/2620-counter)                                                                         | Easy       |
 | [2621. Sleep](https://github.com/devmatsu/leetcode/tree/main/exercises/2621-sleep)                                                                             | Easy       |
 | [2622. Cache With Time Limit](https://github.com/devmatsu/leetcode/tree/main/exercises/2622-cache-with-time-limit)                                             | Medium     |
