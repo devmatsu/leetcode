@@ -18,6 +18,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [2621. Sleep](https://github.com/devmatsu/leetcode/tree/main/exercises/2621-sleep)                                                                             | Easy       |
 | [2622. Cache With Time Limit](https://github.com/devmatsu/leetcode/tree/main/exercises/2622-cache-with-time-limit)                                             | Medium     |
 | [2623. Memoize](https://github.com/devmatsu/leetcode/tree/main/exercises/2623-memoize)                                                                         | Medium     |
+| [2625. Flatten Deeply Nested Array](https://github.com/devmatsu/leetcode/tree/main/exercises/2625-flatten-deeply-nested-array)                                 | Medium     |
 | [2626. Array Reduce Transformation](https://github.com/devmatsu/leetcode/tree/main/exercises/2626-array-reduce-transformation)                                 | Easy       |
 | [2627. Debounce](https://github.com/devmatsu/leetcode/tree/main/exercises/2627-debounce)                                                                       | Medium     |
 | [2629. Function Composition](https://github.com/devmatsu/leetcode/tree/main/exercises/2629-function-composition)                                               | Easy       |
