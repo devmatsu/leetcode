@@ -11,6 +11,7 @@ Each solution is a result of careful thought and dedication, aimed at not just s
 | [1. Two Sum](https://github.com/devmatsu/leetcode/tree/main/exercises/1-two-sum)                                                                               | Easy       |
 | [26. Remove Duplicates from Sorted Array](https://github.com/devmatsu/leetcode/tree/main/exercises/26-remove-duplicates-from-sorted-array)                     | Easy       |
 | [41. First Missing Positive](https://github.com/devmatsu/leetcode/tree/main/exercises/41-first-missing-positive)                                               | Hard       |
+| [347. Top K Frequent Elements](https://github.com/devmatsu/leetcode/tree/main/exercises/347-top-k-frequent-elements)                                           | Medium     |
 | [443. String Compression](https://github.com/devmatsu/leetcode/tree/main/exercises/443-string-compression)                                                     | Medium     |
 | [542. 01 Matrix](https://github.com/devmatsu/leetcode/tree/main/exercises/542-01-matrix)                                                                       | Medium     |
 | [1446. Consecutive Characters](https://github.com/devmatsu/leetcode/tree/main/exercises/1446-consecutive-characters)                                           | Easy       |
